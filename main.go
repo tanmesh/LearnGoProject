@@ -1,6 +1,6 @@
 package main
 
-import "learn-go-project/WaitGrp"
+import "learn-go-project/Retry"
 
 func main() {
 	//Pointer.Pointer()
@@ -81,5 +81,7 @@ func main() {
 
 	//infiniteLoop.InfiniteLoop()
 
-	WaitGrp.WaitGrp()
+	//WaitGrp.WaitGrp()
+
+	Retry.Retry()
 }
