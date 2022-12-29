@@ -1,11 +1,11 @@
 package main
 
-import "learn-go-project/Retry"
+import "learn-go-project/Struct"
 
 func main() {
 	//Pointer.Pointer()
 
-	//Struct.Struct()
+	Struct.Struct()
 
 	//Array.Array()
 
@@ -83,5 +83,5 @@ func main() {
 
 	//WaitGrp.WaitGrp()
 
-	Retry.Retry()
+	//Retry.Retry()
 }

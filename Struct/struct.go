@@ -24,9 +24,9 @@ func Struct() {
 	}
 
 	{
-		v2 := Vertex{X: 1}  // {1, 0}
-		v3 := Vertex{}      // {0, 0}
-		p1 := &Vertex{1, 2} // {1, 2}
-		fmt.Println(v2, v3, p1)
+		v2 := Vertex{X: 1}           // {1, 0}
+		v3 := Vertex{}               // {0, 0}
+		p1 := &Vertex{1, 2}          // {1, 2}
+		fmt.Println(v2, v3, p1, *p1) // {1 0} {0 0} &{1 2} {1 2}
 	}
 }
